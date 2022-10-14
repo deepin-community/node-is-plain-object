@@ -1,0 +1,9 @@
+Description: add babelrc for jest
+Author: Xavier Guimard <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2020-12-08
+
+--- /dev/null
++++ b/.babelrc
+@@ -0,0 +1 @@
++{"presets": [ "@babel/preset-env" ],"plugins": [ "@babel/plugin-transform-runtime" ]}

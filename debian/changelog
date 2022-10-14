@@ -1,0 +1,80 @@
+node-is-plain-object (5.0.0-4) unstable; urgency=medium
+
+  * Team upload
+  * Add Breaks against node-gulp < 4.0.2-9~
+
+ -- Yadd <yadd@debian.org>  Fri, 12 Nov 2021 18:42:08 +0100
+
+node-is-plain-object (5.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix GitHub tags regex
+  * Fix filenamemangle
+  * Indicate that this update breaks also node-fined < 1.2.0+~cs4.5.1-2~
+  * Back to unstable
+
+ -- Yadd <yadd@debian.org>  Sat, 06 Nov 2021 15:38:31 +0100
+
+node-is-plain-object (5.0.0-2) experimental; urgency=medium
+
+  * Team upload
+  * Add Breaks against:
+    + node-clone-deep < 4.0.1-2~
+    + node-liftoff < 3.1.0-5~
+    + node-is-extendable < 1.0.1-2~
+    + node-set-value < 3.0.2~
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 15 Dec 2020 08:59:56 +0100
+
+node-is-plain-object (5.0.0-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 5.0.0
+  * Build with rollup
+  * Update test:
+    + use jest with a .babelrc file instead of mocha
+    + add patch to test generated file, not source one
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 08 Dec 2020 10:15:09 +0100
+
+node-is-plain-object (2.0.4+dfsg-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use sh-sequence-nodejs auto test & install
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 08 Dec 2020 10:05:58 +0100
+
+node-is-plain-object (2.0.4+dfsg-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Enable tests
+  * Bump standards version
+  * Change section to javascript
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 11 Jan 2018 12:10:17 +0530
+
+node-is-plain-object (2.0.1+dfsg-1) unstable; urgency=low
+
+  * Initial release (Closes: #842033)
+
+ -- Sruthi Chandran <srud@disroot.org>  Tue, 25 Oct 2016 18:38:04 +0530

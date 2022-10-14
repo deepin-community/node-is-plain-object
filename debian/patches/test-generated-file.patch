@@ -1,0 +1,16 @@
+Description: test generated file, not source one
+Author: Xavier Guimard <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2020-12-08
+
+--- a/test/server.js
++++ b/test/server.js
+@@ -6,7 +6,7 @@
+  */
+ 
+ import assert from 'assert';
+-import { isPlainObject } from '../is-plain-object.js';
++import { isPlainObject } from '../dist/is-plain-object.js';
+ 
+ describe('Same-Realm Server Tests', function() {
+   it('should return `true` if the object is created by the `Object` constructor.', function() {
