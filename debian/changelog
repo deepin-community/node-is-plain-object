@@ -1,3 +1,30 @@
+node-is-plain-object (5.0.0-7) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-is-plain-object: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Update standards version to 4.6.1, no changes needed.
+  * Add fix for rollup 3 (Closes: #1022626)
+
+ -- Yadd <yadd@debian.org>  Wed, 26 Oct 2022 12:44:49 +0200
+
+node-is-plain-object (5.0.0-6) unstable; urgency=medium
+
+  * Team upload
+  * Drop gulp from Breaks field to workaround dpkg problem
+
+ -- Yadd <yadd@debian.org>  Fri, 17 Dec 2021 06:27:01 +0100
+
+node-is-plain-object (5.0.0-5) unstable; urgency=medium
+
+  * Team update
+  * Update Breaks field
+
+ -- Yadd <yadd@debian.org>  Thu, 16 Dec 2021 18:12:51 +0100
+
 node-is-plain-object (5.0.0-4) unstable; urgency=medium
 
   * Team upload
